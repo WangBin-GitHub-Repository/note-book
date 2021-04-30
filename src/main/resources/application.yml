@@ -1,1 +1,15 @@
+#Socket 配置
+socket:
+  # 监听端口 4433
+  port: 4433
 
+# ThreadPool配置
+threadPool:
+  # 线程池 - 核心线程数，默认为1
+  corePoolSize: 20
+  # 线程池 - 最大线程数，默认为Integer.MAX_VALUE
+  maxPoolSize: 30
+  # 线程池 - 缓存队列 100
+  queueCapacity: 100
+  # 线程池 - 维护线程所允许的空闲时间，默认为60s
+  keepAliveSeconds: 60
